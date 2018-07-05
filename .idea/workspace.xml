@@ -2,80 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa95e6c-cdf6-4a70-a94c-4dc413cb1701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/img/LeetCode_Playground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/img/LeetCode_nav.4d940ca7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/img/avatar_1518320574.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/LeetCode_Cup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/LeetCoin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/beian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/copper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/discuss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-160x160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-notification-160x160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-notification-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-notification-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-notification-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/favicon-notification-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/temp_binary-tree.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset/resource/img/temp_linked-list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/bell.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problemset/git" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,20 +25,24 @@
         <counts>
           <entry key="css" value="12" />
           <entry key="html" value="53" />
-          <entry key="txt" value="8" />
+          <entry key="md" value="299" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="12" />
           <entry key="HTML" value="53" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Markdown" value="299" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="1" />
+          <entry key="md" value="1" />
+          <entry key="svg" value="2" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -117,18 +50,32 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problemset/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="88">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="308">
+                <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -167,6 +114,7 @@
         <option value="$PROJECT_DIR$/problemset/index.css" />
         <option value="$PROJECT_DIR$/common/common.css" />
         <option value="$PROJECT_DIR$/problemset/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -177,8 +125,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="684" />
-    <option name="y" value="101" />
+    <option name="x" value="608" />
+    <option name="y" value="49" />
     <option name="width" value="449" />
     <option name="height" value="655" />
   </component>
@@ -188,120 +136,120 @@
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
       <dailyData date="5-7-2018">
-        <observation name="false" value="12.0" />
+        <observation name="false" value="20.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="5-7-2018">
-        <observation name="false" value="12.0" />
+        <observation name="false" value="20.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="false" value="1.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="false" value="5.0" />
         <observation name="true" value="6.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="false" value="6.0" />
-        <observation name="true" value="1.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="false" value="9.0" />
+        <observation name="true" value="2.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="false" value="7.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="false" value="11.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="false" value="7.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="false" value="11.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="false" value="7.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="false" value="11.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="5-7-2018">
-        <observation name="false" value="12.0" />
+        <observation name="false" value="20.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="unknown" value="7.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="unknown" value="11.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="null" value="7.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="null" value="11.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="unknown" value="7.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="unknown" value="11.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="5-7-2018">
-        <observation name="cancelled" value="20.0" />
-        <observation name="explicitSelect" value="11.0" />
-        <observation name="typedSelect" value="1.0" />
+        <observation name="cancelled" value="153.0" />
+        <observation name="explicitSelect" value="17.0" />
+        <observation name="typedSelect" value="3.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="5-7-2018">
-        <observation name="BASIC" value="15.0" />
+        <observation name="BASIC" value="23.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="5-7-2018">
-        <observation name="count" value="32.0" />
+        <observation name="count" value="173.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="5-7-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="23.0" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -310,7 +258,7 @@
     <factor id="doubleFeature:grouping">
       <dailyData date="5-7-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="23.0" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -318,36 +266,36 @@
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="5-7-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="23.0" />
-        <observation name="max" value="0.0" />
+        <observation name="average" value="0.051282" />
+        <observation name="count" value="39.0" />
+        <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="variance" value="0.026396" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="5-7-2018">
-        <observation name="average" value="-851.565217" />
-        <observation name="count" value="23.0" />
+        <observation name="average" value="-856.769231" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="132877.396166" />
+        <observation name="variance" value="158163.503646" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="5-7-2018">
-        <observation name="average" value="15632114216194048000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0" />
-        <observation name="count" value="23.0" />
+        <observation name="average" value="9218939153140078000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="�" />
@@ -355,9 +303,9 @@
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
+        <observation name="UNDEFINED" value="9.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="13.0" />
+        <observation name="count" value="21.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -365,9 +313,9 @@
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
+        <observation name="UNDEFINED" value="9.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="13.0" />
+        <observation name="count" value="21.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -375,19 +323,19 @@
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
-        <observation name="average" value="1.692308" />
-        <observation name="count" value="13.0" />
+        <observation name="UNDEFINED" value="9.0" />
+        <observation name="average" value="1.809524" />
+        <observation name="count" value="21.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.273916" />
+        <observation name="variance" value="0.228692" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="5.0" />
+        <observation name="UNDEFINED" value="9.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="13.0" />
+        <observation name="count" value="21.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -396,7 +344,7 @@
     <factor id="doubleFeature:query_length">
       <dailyData date="5-7-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="23.0" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -404,32 +352,32 @@
     </factor>
     <factor id="doubleFeature:result_length">
       <dailyData date="5-7-2018">
-        <observation name="average" value="6.695652" />
-        <observation name="count" value="23.0" />
+        <observation name="average" value="6.205128" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="10.0" />
-        <observation name="min" value="3.0" />
-        <observation name="variance" value="3.330167" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="3.594789" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="5-7-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="23.0" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -437,41 +385,42 @@
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="5-7-2018">
-        <observation name="UNDEFINED" value="12.0" />
+        <observation name="UNDEFINED" value="20.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="5-7-2018">
-        <observation name="average" value="6946.956522" />
-        <observation name="count" value="23.0" />
+        <observation name="average" value="4609.179487" />
+        <observation name="count" value="39.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="13450874.544593" />
+        <observation name="variance" value="17073593.508968" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="5-7-2018">
-        <observation name="0" value="11.0" />
+        <observation name="0" value="16.0" />
+        <observation name="1" value="1.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="5-7-2018">
-        <observation name="total" value="4.0" />
+        <observation name="total" value="7.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
       <dailyData date="5-7-2018">
-        <observation name="0" value="3.0" />
-        <observation name="1" value="4.0" />
-        <observation name="2" value="3.0" />
-        <observation name="3" value="1.0" />
+        <observation name="0" value="5.0" />
+        <observation name="1" value="5.0" />
+        <observation name="2" value="5.0" />
+        <observation name="3" value="2.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="5-7-2018">
-        <observation name="average" value="231.857143" />
-        <observation name="count" value="7.0" />
+        <observation name="average" value="180.916667" />
+        <observation name="count" value="12.0" />
       </dailyData>
     </factor>
   </component>
@@ -487,6 +436,11 @@
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myleet" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -500,13 +454,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530784658211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530785047076" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\myleet\document" />
       <recent name="C:\Users\Administrator\IdeaProjects\myleet\common" />
       <recent name="C:\Users\Administrator\IdeaProjects\myleet\common\img" />
     </key>
@@ -564,7 +519,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530783889249</updated>
-      <workItem from="1530783892822" duration="745000" />
+      <workItem from="1530783892822" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="修改不规范命名">
       <created>1530784153974</created>
@@ -573,28 +528,37 @@
       <option name="project" value="LOCAL" />
       <updated>1530784153974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加公共资源文件">
+      <created>1530784739316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530784739316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="745000" />
+    <option name="totallyTimeSpent" value="1340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Image Layers" />
       <window_info id="Designer" />
+      <window_info id="Image Layers" />
       <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -603,11 +567,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,7 +585,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改不规范命名" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改不规范命名" />
+    <MESSAGE value="添加公共资源文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加公共资源文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/font-awesome-4.7.0/css/font-awesome.css">
@@ -640,10 +605,26 @@
     <entry file="file://$PROJECT_DIR$/problemset/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problemset/resource/img/cn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/problemset/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="88">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="308">
+            <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
