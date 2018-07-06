@@ -107,6 +107,7 @@
 }
 
 /*导航栏结束*/
+
 /* main*/
 .container {
     width: 1200px;
@@ -240,7 +241,6 @@
 }
 .bm_h h2 a{
     font-size: 14px;
-
 }
 .bm_h h2 a:hover{
     text-decoration: none;
@@ -269,7 +269,7 @@ table{
 .bm_c td h2 {
     font-size: 14px;
     font-weight: normal;
-    margin-bottom: 6px;
+    /*margin-bottom: 6px;*/
 }
 .bm_c td h2 a{
     color: #333333;
@@ -294,6 +294,13 @@ td{
 }
 .xi2 a{
 color: #333333;
+}
+.f1_i  {
+    width: auto;
+    max-width: 150px;
+    text-align: right;
+    right: 100px;
+    border-right: 100px ;
 }
 
 
