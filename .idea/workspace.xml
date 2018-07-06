@@ -2,40 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17fa828-2e4b-4747-b532-dd2b4e1a5607" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../myleet/community/forum.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/forum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/LeetCode_Cup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/LeetCoin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/beian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/cn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/copper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/discuss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-160x160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-160x160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/temp_binary-tree.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/temp_linked-list.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myleet/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/collapsed_no.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/common_45_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/problemset/resource/img/collapsed_no.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myleet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myleet/problemset/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/problemset/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myleet/community/forum.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/community/forum.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myleet/community/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/community/forum.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,12 +53,21 @@
       <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myleet/community/forum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+            <state relative-caret-position="107">
+              <caret line="104" column="23" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#font#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -78,8 +76,8 @@
       <file leaf-file-name="forum.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../myleet/community/forum.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="155" column="20" lean-forward="true" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
+            <state relative-caret-position="96">
+              <caret line="268" column="12" selection-start-line="268" selection-start-column="12" selection-end-line="268" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -104,9 +102,10 @@
         <option value="$PROJECT_DIR$/problemset/index.html" />
         <option value="$PROJECT_DIR$/problemset/index.html" />
         <option value="$PROJECT_DIR$/problemset/index.css" />
-        <option value="$PROJECT_DIR$/../myleet/community/forum.css" />
-        <option value="$PROJECT_DIR$/../myleet/community/forum.html" />
         <option value="$PROJECT_DIR$/../myleet/problemset/index.css" />
+        <option value="$PROJECT_DIR$/../myleet/problemset/index.html" />
+        <option value="$PROJECT_DIR$/../myleet/community/forum.html" />
+        <option value="$PROJECT_DIR$/../myleet/community/forum.css" />
       </list>
     </option>
   </component>
@@ -144,23 +143,26 @@
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myleet" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,6 +182,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myleet\community\resource\img" />
+      <recent name="D:\myleet\community\bootstrap" />
+      <recent name="D:\myleet\problemset\resource\img" />
+      <recent name="D:\myleet\community" />
       <recent name="D:\myleet" />
     </key>
   </component>
@@ -266,7 +272,7 @@
       <workItem from="1530783178289" duration="2285000" />
       <workItem from="1530798651249" duration="6332000" />
       <workItem from="1530806026911" duration="981000" />
-      <workItem from="1530835712639" duration="8405000" />
+      <workItem from="1530835712639" duration="26193000" />
     </task>
     <task id="LOCAL-00001" summary="底部更新">
       <created>1530806810182</created>
@@ -282,11 +288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530806957169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <created>1530845828527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530845828527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18003000" />
+    <option name="totallyTimeSpent" value="35791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -303,7 +316,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,7 +342,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="底部更新" />
     <MESSAGE value="添加公共底部代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加公共底部代码" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
@@ -384,13 +398,6 @@
     <entry file="file://$PROJECT_DIR$/../myleet/common/font-awesome-4.7.0/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2904" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myleet/common/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myleet/problemset/resource/img/temp_linked-list.jpg">
@@ -453,42 +460,70 @@
     <entry file="file://$PROJECT_DIR$/../myleet/problemset/resource/img/cn.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myleet/problemset/resource/img/copper.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="96" column="10" selection-start-line="52" selection-end-line="96" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myleet/community/resource/img/cn.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myleet/community/forum.html">
+    <entry file="file://$PROJECT_DIR$/../myleet/common/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/resource/img/copper.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/resource/img/collapsed_no.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/community/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/community/bootstrap/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/community/resource/img/collapsed_no.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/community/forum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="104" column="23" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myleet/community/forum.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="155" column="20" lean-forward="true" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
+        <state relative-caret-position="96">
+          <caret line="268" column="12" selection-start-line="268" selection-start-column="12" selection-end-line="268" selection-end-column="12" />
         </state>
       </provider>
     </entry>

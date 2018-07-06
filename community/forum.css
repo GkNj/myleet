@@ -114,7 +114,7 @@
     position: relative;
 }
 
-.container .c1 .c11 em{
+.container .c1 .c11 em {
     color: #cccccc;
     background: none;
     line-height: 30px;
@@ -122,43 +122,184 @@
     margin: 0 3px;
 }
 
-.container .c1 .c11 a{
+.container .c1 .c11 a {
     color: gray;
 }
-.container .c1 .c11 a:hover{
+
+.container .c1 .c11 a:hover {
     color: #8590a6;
 }
-.container .c1 .c11 .y a{
+
+.container .c1 .c11 .y a {
     float: right;
     margin-right: 100px;
     margin-top: -28px;
 }
-.container .c2 ul li{
+
+.container .c2 ul li {
     margin-top: -20px;
     list-style: none;
 
 }
-.container .c2 ul li a:hover{
+
+.container .c2 ul li a:hover {
     text-decoration: underline;
 }
-.container .c2{
-    width: 1349px;
-    height: 1141px;
-    position: relative;
+
+.container .c2 {
+    width: 100%;
+    /*background-color: #E5E6E9;*/
+    /*height: 970px;*/
+    /*background-color: #8590a6;*/
 }
-.container .c2 .left{
+.container .c2 .c22 {
+    width: 250px;
+    height: 289px;
+    background-color: #fea116;
+    float: right;
+}
+
+.container .mn{
     width: 915px;
     height: 970px;
-    float: left;
 }
-.container .c2 .left .c21 h2{
+.container .mn .bm{
+    width: 915px;
+    height: 155px;
+}
+
+.container .mn .bm{
+    border: 1px solid #F0F0F0;
+    border-color: #E5E6E9 #DFE0E4 #D0D1D5;
+    background: #FFF;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    border-radius: 3px;
+}
+.container .mn .bm h2{
     color: #666;
     font-size: 14px;
 }
+.container .mn .bm .bm_c .heat .xld1 dt{
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.container .mn .bm .bm_c .heat .xld1 dt a{
+    color: black;
+}
+.container .mn .bm .bm_c .heat .xld1 dt a:hover{
+    text-decoration: underline;
+}
+.container .mn .bm .bm_c .heat .xld1 dd{
+    display: block;
+    -webkit-margin-start: 40px;
+    margin-bottom: 8px;
+    margin: 0;
+    padding: 0;
+    color: gray;
+    word-wrap: break-word;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.container .mn .bm .bm_c .heat .xld{
+    float: right;
+    display: inline-block;
+    flex-grow: 1;
+    width: calc(50% - 15px - 1px);
+    border-bottom: dotted 1px white;
+    margin-top: -60px;
+}
+.container .mn .bm .bm_c .heat .xld dt a{
+    color: black;
+}
+.container .mn .bm .bm_c .heat .xld dt{
+    color: #333;
+    font-size: 14px;
+
+}
+.container .mn .bm .bm_c .heat .xld dd{
+    font-size: 14px;
+    color: gray;
+}
+.container .mn .bm .bm_c .heat .xld dt a:hover{
+    text-decoration: underline;
+}
+.container .mn .f1 .bmw .bm_h{
+    border: none;
+    font-weight: 500;
+    background: white;
+    padding: 0 15px;
+    height: 31px;
+    line-height: 31px;
+    white-space: nowrap;
+    border-radius: 3px 3px 0 0;
+}
+.bm_h h2{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.bm_h h2 a{
+    font-size: 14px;
+
+}
+.bm_h h2 a:hover{
+    text-decoration: none;
+}
+.bm_h .o img{
+    float: right;
+    font-size: 16px;
+}
+.bmw .bm_c{
+    display: block;
+}
+table{
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    display: table;
+    border-color:gray;
+    empty-cells: show;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+.f1_icn a img{
+    width: 34px;
+    height: 32px;
+    margin-top: 20px;
+}
+.bm_c td h2 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+.bm_c td h2 a{
+    color: #333333;
+}
+.bm_c td h2 a:hover{
+    text-decoration: underline;
+}
+.bm_c p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.f1_tb td{
+    padding: 15px 0 15px 15px;
+    font-size:12px;
+}
+td{
+    display: table-cell;
+    vertical-align: inherit;
+}
+.xi2 a{
+color: #333333;
+}
+
 
 /*底 部*/
 .footer {
-    width: 1349px;
+    width: 100%;
     height: 70px;
     position: relative;
 }
@@ -175,7 +316,6 @@
 }
 
 .footer .left .p1 span {
-
     width: 256.92px;
     height: 16px;
 }
@@ -242,4 +382,5 @@
 .footer .right .last span:hover {
     text-decoration: none;
 }
+
 /*底部结束*/
