@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b17fa828-2e4b-4747-b532-dd2b4e1a5607" name="Default" comment="" />
+    <list default="true" id="b17fa828-2e4b-4747-b532-dd2b4e1a5607" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../myleet/community/forum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/forum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/LeetCode_Cup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/LeetCoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/apple-touch-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/beian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/copper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/discuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-160x160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-160x160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/favicon-notification-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/temp_binary-tree.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myleet/community/resource/img/temp_linked-list.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myleet/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myleet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myleet/problemset/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../myleet/problemset/index.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,25 +61,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
+      <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myleet/community/forum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+            <state relative-caret-position="962">
+              <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.css">
+      <file leaf-file-name="forum.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../myleet/community/forum.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="157" column="18" lean-forward="true" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+            <state relative-caret-position="250">
+              <caret line="155" column="20" lean-forward="true" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../myleet" />
@@ -54,7 +102,10 @@
       <list>
         <option value="$PROJECT_DIR$/problemset/index.css" />
         <option value="$PROJECT_DIR$/problemset/index.html" />
-        <option value="$PROJECT_DIR$/../myleet/problemset/index.html" />
+        <option value="$PROJECT_DIR$/problemset/index.html" />
+        <option value="$PROJECT_DIR$/problemset/index.css" />
+        <option value="$PROJECT_DIR$/../myleet/community/forum.css" />
+        <option value="$PROJECT_DIR$/../myleet/community/forum.html" />
         <option value="$PROJECT_DIR$/../myleet/problemset/index.css" />
       </list>
     </option>
@@ -69,10 +120,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="340" />
-    <option name="y" value="90" />
-    <option name="width" value="449" />
-    <option name="height" value="655" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -99,19 +149,34 @@
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myleet" type="462c0819:PsiDirectoryNode" />
               <item name="problemset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myleet" type="462c0819:PsiDirectoryNode" />
+              <item name="problemset" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -130,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.forum.html">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -153,6 +218,7 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="forum.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myleet/community/forum.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myleet/problemset/index.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -176,8 +242,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.forum.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.forum.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -194,12 +265,28 @@
       <updated>1530783176389</updated>
       <workItem from="1530783178289" duration="2285000" />
       <workItem from="1530798651249" duration="6332000" />
-      <workItem from="1530806026911" duration="694000" />
+      <workItem from="1530806026911" duration="981000" />
+      <workItem from="1530835712639" duration="8405000" />
     </task>
+    <task id="LOCAL-00001" summary="底部更新">
+      <created>1530806810182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530806810182</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加公共底部代码">
+      <created>1530806957169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530806957169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9311000" />
+    <option name="totallyTimeSpent" value="18003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -209,14 +296,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.049586777" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.104132235" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,6 +317,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" weight="0.3289256" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +326,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="底部更新" />
+    <MESSAGE value="添加公共底部代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加公共底部代码" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4378">
+          <caret line="199" column="26" lean-forward="true" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
@@ -349,17 +456,39 @@
     <entry file="file://$PROJECT_DIR$/../myleet/problemset/resource/img/copper.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.css">
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="157" column="18" lean-forward="true" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="96" column="10" selection-start-line="52" selection-end-line="96" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.html">
+    <entry file="file://$PROJECT_DIR$/../myleet/community/resource/img/cn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/community/forum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        <state relative-caret-position="962">
+          <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/problemset/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myleet/community/forum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="155" column="20" lean-forward="true" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
         </state>
       </provider>
     </entry>

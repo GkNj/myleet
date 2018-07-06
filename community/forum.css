@@ -1,0 +1,245 @@
+/*导航栏*/
+.navbar {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 52px;
+    background-color: #222222;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+}
+
+.logo {
+    position: relative;
+    padding-top: 10px;
+    margin-left: 120px;
+    vertical-align: middle;
+    height: 50px;
+    width: 117px;
+    line-height: 20px;
+    float: left;
+    opacity: 0.85;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.navbar-menu-left {
+    float: left;
+    padding-top: 15px;
+    width: 60%;
+    height: 52px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.navbar-menu-left ul {
+    list-style: none;
+}
+
+.navbar-menu-left ul li {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.navbar-menu-left ul li a {
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #9d9d9d;
+}
+
+.navbar-menu-left ul li a:hover {
+    color: #fff;
+}
+
+.store {
+    color: #fea116;
+}
+
+.navbar-menu-right {
+    float: right;
+    padding-top: 15px;
+    width: 20%;
+    height: 52px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.navbar-menu-right ul {
+    list-style: none;
+}
+
+.navbar-menu-right ul li {
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.playground {
+    opacity: 0.85;
+}
+
+.playground:hover {
+    opacity: 1;
+}
+
+.fa-bell {
+    width: 26px;
+    padding-top: 1px;
+    color: #95a5a6;
+    font-size: 20px;
+}
+
+.avatar {
+    opacity: 0.85;
+    border-radius: 4px;
+}
+
+.avatar:hover {
+    opacity: 1;
+}
+
+/*导航栏结束*/
+/* main*/
+.container {
+    width: 1200px;
+    height: 1098px;
+    position: relative;
+}
+
+.container .c1 .c11 em{
+    color: #cccccc;
+    background: none;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 3px;
+}
+
+.container .c1 .c11 a{
+    color: gray;
+}
+.container .c1 .c11 a:hover{
+    color: #8590a6;
+}
+.container .c1 .c11 .y a{
+    float: right;
+    margin-right: 100px;
+    margin-top: -28px;
+}
+.container .c2 ul li{
+    margin-top: -20px;
+    list-style: none;
+
+}
+.container .c2 ul li a:hover{
+    text-decoration: underline;
+}
+.container .c2{
+    width: 1349px;
+    height: 1141px;
+    position: relative;
+}
+.container .c2 .left{
+    width: 915px;
+    height: 970px;
+    float: left;
+}
+.container .c2 .left .c21 h2{
+    color: #666;
+    font-size: 14px;
+}
+
+/*底 部*/
+.footer {
+    width: 1349px;
+    height: 70px;
+    position: relative;
+}
+
+.footer .left {
+    margin-left: 20px;
+    width: 562.08px;
+    height: 70px;
+    position: absolute;
+}
+
+.footer .left span {
+    color: gray;
+}
+
+.footer .left .p1 span {
+
+    width: 256.92px;
+    height: 16px;
+}
+
+.footer .left .p2 span {
+    width: 109.39px;
+    height: 14px;
+    top: 7px;
+}
+
+.footer .right {
+    width: 756.91px;
+    height: 70px;
+    float: right;
+}
+
+.footer .right .links {
+    width: 756.91px;
+    height: 23px;
+    margin-left: 200px;
+}
+
+.footer .right a {
+    color: gray;
+}
+
+.footer .right .links {
+    width: 756.91px;
+    height: 23px;
+}
+
+.footer .right .links ul {
+    list-style: none;
+}
+
+.footer .right .links ul li {
+    float: left;
+}
+
+.footer .right .links ul li .fengefu {
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 6px;
+    border-left: 2px;
+    border: solid gray 1px
+}
+
+.footer .right .links ul a span:hover {
+    text-decoration: underline;
+}
+
+.footer .right .links ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .right .last {
+    width: 674.5px;
+    height: 26px;
+    margin-left: 480px;
+}
+
+.footer .right .last span:hover {
+    text-decoration: none;
+}
+/*底部结束*/
