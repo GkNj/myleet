@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b17fa828-2e4b-4747-b532-dd2b4e1a5607" name="Default" comment="commit">
+    <list default="true" id="b17fa828-2e4b-4747-b532-dd2b4e1a5607" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/articles/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/contestreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/contestreview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/css/review.css" beforeDir="false" afterPath="$PROJECT_DIR$/articles/css/review.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,16 +30,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="articles.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articles/articles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="283" column="19" selection-start-line="283" selection-start-column="19" selection-end-line="283" selection-end-column="19" />
+            <state relative-caret-position="243">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contestreview.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articles/css/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problemset/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contest/contest.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="contestreview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/contestreview.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1539">
@@ -89,6 +108,7 @@
         <option value="$PROJECT_DIR$/community/forum.css" />
         <option value="$PROJECT_DIR$/articles/contestreview.html" />
         <option value="$PROJECT_DIR$/articles/css/review.css" />
+        <option value="$PROJECT_DIR$/articles/articles.html" />
       </list>
     </option>
   </component>
@@ -163,11 +183,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaSE\myleet\articles\css" />
       <recent name="D:\myleet\community\resource\img" />
       <recent name="D:\myleet\community\bootstrap" />
       <recent name="D:\myleet\problemset\resource\img" />
       <recent name="D:\myleet\community" />
-      <recent name="D:\myleet" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -1049,7 +1069,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.forum.html">
+  <component name="RunManager" selected="JavaScript Debug.contestreview.html">
+    <configuration name="contestreview.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myleet/articles/contestreview.html" />
     <configuration name="forum.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myleet/community/forum.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myleet/problemset/index.html" />
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1099,9 +1120,11 @@
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.forum.html" />
+      <item itemvalue="JavaScript Debug.contestreview.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.contestreview.html" />
         <item itemvalue="JavaScript Debug.forum.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -1186,11 +1209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530956101216</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1530956785297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1530956785297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58795000" />
+    <option name="totallyTimeSpent" value="59326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1282,7 +1312,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/community/forum.html" />
     <entry file="file://$PROJECT_DIR$/community/forum.css" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1429,13 +1458,6 @@
     <entry file="file://$PROJECT_DIR$/community/bootstrap/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/community/bootstrap/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/community/resource/img/collapsed_no.gif" />
-    <entry file="file://$PROJECT_DIR$/problemset/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="23" lean-forward="true" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problemset/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-944">
@@ -1443,7 +1465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contest/contest.html" />
     <entry file="file://$PROJECT_DIR$/community/forum.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8910" />
@@ -1453,13 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="283" column="19" selection-start-line="283" selection-start-column="19" selection-end-line="283" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1473,10 +1487,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contest/contest.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problemset/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/articles/contestreview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1539">
           <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
