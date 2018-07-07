@@ -39,6 +39,7 @@ body {
 .wrap .contain .logo {
     position: static;
     margin-top: 0px;
+    margin-left: 0px;
     padding-top: 80px;
     text-align: center;
     padding-bottom: 40px;
@@ -136,7 +137,8 @@ body {
 .card2 .card2-contain .title{
     margin-top: 10px;
     color: #fff;
-
+    font-size: 30px;
+    font-weight: bold;
 }
 
 

@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa95e6c-cdf6-4a70-a94c-4dc413cb1701" name="Default Changelist" comment="">
+    <list default="true" id="4fa95e6c-cdf6-4a70-a94c-4dc413cb1701" name="Default Changelist" comment="竞赛页面差底部和抬头">
+      <change afterPath="$PROJECT_DIR$/contest/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/LeetCode_Cup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/LeetCoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/apple-touch-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/beian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/collapsed_no.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_2_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_37_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_38_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_39_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_40_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_41_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_43_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_44_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_45_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/common_46_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/copper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/discuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-160x160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-notification-160x160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-notification-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-notification-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-notification-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/favicon-notification-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/temp_binary-tree.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contest/resource/img/temp_linked-list.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contest/contest.html" beforeDir="false" afterPath="$PROJECT_DIR$/contest/contest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contest/css/contest.css" beforeDir="false" afterPath="$PROJECT_DIR$/contest/css/contest.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -124,14 +166,18 @@
       </file>
       <file leaf-file-name="forum.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/community/forum.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="893" column="17" selection-start-line="893" selection-start-column="17" selection-end-line="893" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="contest.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contest.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contest/css/contest.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="326" column="4" lean-forward="true" selection-start-line="326" selection-start-column="4" selection-end-line="326" selection-end-column="42" />
+            <state relative-caret-position="207">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -139,8 +185,22 @@
       <file leaf-file-name="contest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contest/contest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="308" column="55" lean-forward="true" selection-start-line="308" selection-start-column="55" selection-end-line="308" selection-end-column="55" />
+            <state relative-caret-position="160">
+              <caret line="464" column="41" selection-start-line="464" selection-start-column="41" selection-end-line="464" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cn.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contest/resource/img/cn.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contest/css/footer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2997">
+              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -148,8 +208,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problemset/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="189">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -186,6 +246,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="forum.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/community/forum.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="145" column="46" lean-forward="true" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/font-awesome-4.7.0/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -198,8 +267,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problemset/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="324">
+              <caret line="112" selection-end-line="112" />
             </state>
           </provider>
         </entry>
@@ -217,8 +286,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>border-radius</find>
-      <find>nav</find>
+      <find>contest</find>
       <find>card2</find>
+      <find>nav</find>
+      <find>logi</find>
+      <find>last</find>
+      <find>虚拟</find>
     </findStrings>
     <replaceStrings>
       <replace>navy</replace>
@@ -242,8 +315,10 @@
         <option value="$PROJECT_DIR$/problemset/pie-simple.html" />
         <option value="$PROJECT_DIR$/problemset/index.html" />
         <option value="$PROJECT_DIR$/problemset/index.css" />
-        <option value="$PROJECT_DIR$/contest/contest.html" />
+        <option value="$PROJECT_DIR$/contest/footer.css" />
         <option value="$PROJECT_DIR$/contest/css/contest.css" />
+        <option value="$PROJECT_DIR$/contest/css/footer.css" />
+        <option value="$PROJECT_DIR$/contest/contest.html" />
       </list>
     </option>
   </component>
@@ -1014,20 +1089,7 @@
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome-4.7.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome-4.7.0" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
@@ -1037,55 +1099,7 @@
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
               <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myleet" type="462c0819:PsiDirectoryNode" />
-              <item name="problemset" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="explore" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1105,16 +1119,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\myleet\contest" />
+      <recent name="D:\IdeaProjects\myleet\problemset\resource\bootstrap\js" />
+      <recent name="C:\Users\Administrator\IdeaProjects\myleet\problemset\resource" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\myleet\contest\css" />
       <recent name="D:\IdeaProjects\myleet\problemset" />
       <recent name="D:\IdeaProjects\myleet\problemset\resource\echart" />
       <recent name="C:\Users\Administrator\IdeaProjects\myleet\document" />
       <recent name="C:\Users\Administrator\IdeaProjects\myleet\common" />
-      <recent name="C:\Users\Administrator\IdeaProjects\myleet\common\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\myleet\problemset\resource\bootstrap\js" />
-      <recent name="C:\Users\Administrator\IdeaProjects\myleet\problemset\resource" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1266,14 +1281,22 @@
       <option name="project" value="LOCAL" />
       <updated>1530948511281</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="竞赛页面差底部和抬头">
+      <created>1530949248068</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530949248068</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39707000" />
+    <option name="totallyTimeSpent" value="43428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1373,7 +1396,8 @@
     <MESSAGE value="加入bootstrap" />
     <MESSAGE value="修改冲突" />
     <MESSAGE value="修复了一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了一下" />
+    <MESSAGE value="竞赛页面差底部和抬头" />
+    <option name="LAST_COMMIT_MESSAGE" value="竞赛页面差底部和抬头" />
   </component>
   <component name="WindowStateProjectService">
     <state width="200" height="204" key="Git.Branch.Popup" />
@@ -1381,15 +1405,6 @@
     <state width="200" height="204" key="Git.Branch.Popup@1440.900" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problemset/resource/img/cn.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problemset/resource/img/algorithm_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/problemset/resource/bootstrap/js/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1708,10 +1723,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community/forum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="893" column="17" selection-start-line="893" selection-start-column="17" selection-end-line="893" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contest/resource/img/cn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problemset/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problemset/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="189">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1747,34 +1786,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problemset/index.css">
+    <entry file="file://$PROJECT_DIR$/contest/css/contest.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="207">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contest/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2997">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contest/contest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="308" column="55" lean-forward="true" selection-start-line="308" selection-start-column="55" selection-end-line="308" selection-end-column="55" />
+        <state relative-caret-position="160">
+          <caret line="464" column="41" selection-start-line="464" selection-start-column="41" selection-end-line="464" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common.css">
+    <entry file="file://$PROJECT_DIR$/community/forum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community/forum.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contest/css/contest.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="326" column="4" lean-forward="true" selection-start-line="326" selection-start-column="4" selection-end-line="326" selection-end-column="42" />
+        <state relative-caret-position="164">
+          <caret line="145" column="46" lean-forward="true" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
         </state>
       </provider>
     </entry>
