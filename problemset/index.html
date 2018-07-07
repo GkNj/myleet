@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link href="resource/bootstrap/js/jquery-3.3.1.js" rel="script" type="text/javascript">
-
     <link rel="stylesheet" type="text/css" href="../common/common.css">
     <link rel="stylesheet" type="text/css" href="resource/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../common/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -14,6 +13,8 @@
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
+    <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+
     <link href="index.css" type="text/css" rel="stylesheet">
     <title>题库</title>
 </head>
@@ -394,21 +395,24 @@
                 </div>
                 <div class="panel-chart">
                     <div class="panel panel-default">
-                        <div class="panel-heading" style="height: 30px ;font-size: 14px;font-weight: 400">
-                            <h3 class="panel-title title-head">当前进度: </h3>
-                            <div class="dropdown title-head">
-                                <button class="btn btn-default dropdown-toggle  title-head-drop " type="button"
+                        <div class="panel-heading" style="height: 40px ;font-size: 14px;font-weight: 400">
+                            <div>
+                                <h3 class="panel-title title-head">当前进度: </h3>
+                                <div class="dropdown title-head">
+                                    <button class="btn btn-default dropdown-toggle  title-head-drop " type="button"
 
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    未命名进度
-                                    <i class="fa fa-sort"></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">50</a></li>
-                                    <li><a href="#">100</a></li>
-                                    <li><a href="#">全部</a></li>
-                                </ul>
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        未命名进度
+                                        <i class="fa fa-sort"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a href="#">50</a></li>
+                                        <li><a href="#">100</a></li>
+                                        <li><a href="#">全部</a></li>
+                                    </ul>
+                                </div>
                             </div>
+
                         </div>
                         <div class="panel-body">
                             <div class="my-chart">
@@ -500,11 +504,71 @@
                                 </div>
                             </div>
                             <div>
+                                <ul class="text-li">
+                                    <li>
+                                        <div class="text-li-no">
+                                            <div>635</div>
+                                            <br>
+                                            <span>未做</span>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="text-li-do">
+
+                                            <div>29 / 669</div>
+                                            <br>
+                                            <span>已解答</span>
+                                        </div>
+
+
+                                    </li>
+                                    <li>
+                                        <div class="text-li-try">
+                                            <div>5</div>
+                                            <br>
+                                            <span>尝试过</span>
+                                        </div>
+
+                                    </li>
+                                </ul>
+
 
                             </div>
                         </div>
-                        <div class="panel-footer">Panel footer</div>
+                        <div class="panel-footer" style="height: 30px">
+
+                            <div>经验：1302</div>
+                            <div>1302 <img src="resource/img/LeetCoin.png" alt="" width="10px"></div>
+
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <!--热门推荐-->
+            <div class="hot">
+                <div class="type-all-text">
+                    <i class="glyphicon glyphicon-fire"> </i>
+                    热门推荐
+                </div>
+                <div class="list-group-item  ">
+                    <a href="#" class="text-gray text-400">
+                        <div class="list-content-wrapper">
+                            <div class="pull-right"></div>
+                            <span><i class="glyphicon glyphicon-heart contribute-icon"
+                                     aria-hidden="true"></i>&nbsp; 贡献题目</span></div>
+                    </a>
+                </div>
+                <hr style="width: 100%;border-top: 1px solid #eee">
+            </div>
+
+
+
+            <div class="topic">
+                <div class="type-all-text">
+                    <i class="fa fa-bookmark-o"> </i>
+                    话题分类
                 </div>
             </div>
         </div>

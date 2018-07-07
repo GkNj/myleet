@@ -479,8 +479,8 @@ a:hover {
 /*右半部分样式表*/
 .row-right {
     margin-left: 5%;
-    width: 25%;
-    height: 200px;
+    width: 200px;
+    height: auto;
     /*background-color: #ff0066;*/
 }
 
@@ -488,7 +488,7 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     margin: 5px 0 38px 0;
-    width: 240px;
+    width: 100%;
     border-radius: 5px;
     height: 126px;
     background: linear-gradient(#2b2b2b, #393c43);
@@ -506,6 +506,13 @@ a:hover {
     color: #8a8c8e;
 }
 
+.panel {
+    width: 100%;
+    border-radius: 10px;
+    /*border-bottom-right-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+}
+
 .panel-chart {
     width: 100%;
     float: none !important;
@@ -513,12 +520,17 @@ a:hover {
 }
 
 .panel-heading {
-    width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
     float: none !important;
+    vertical-align: middle;
 
 }
 
 .panel-heading .title-head {
+    text-align: center;
+    font-size: 14px;
     float: left !important;
 }
 
@@ -534,9 +546,77 @@ a:hover {
 }
 
 .panel-body {
+    width: 100%;
     float: none !important;
 }
 
 .panel-footer {
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 14px;
     float: none !important;
+}
+
+.text-li li {
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px;
+    float: left;
+}
+
+.text-li li div {
+    font-weight: 500;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text-li-no {
+
+    color: #337ab7 !important;
+}
+
+.text-li-do {
+    color: #449d44 !important
+}
+
+.text-li-try {
+    color: #fea116 !important;
+}
+
+.panel-footer div {
+    vertical-align: middle;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 10px;
+    width: 50%;
+    height: 12px;
+    text-align: center;
+}
+
+.hot {
+    width: 100%;
+}
+
+.list-group-item {
+    width: 100%;
+    border: none;
+
+}
+
+.list-content-wrapper {
+
+    display: block;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.pull-right {
+    color: red;
+}
+.glyphicon-heart{
+    color: red;
 }
