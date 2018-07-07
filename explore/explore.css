@@ -1,0 +1,286 @@
+/*字体样式*/
+.base{  font-family: sans-serif;}
+/*列表样式*/
+.list {list-style: none;}
+.main{
+    width:956px;
+    height:auto;
+    background-color: white;
+    position: absolute;
+    margin-left:205px;
+
+}
+
+
+.label {
+    width:100%;
+    /*height:18px;*/
+    height: auto;
+    /*background-color: #ffe45e;*/
+    position: relative;
+}
+.label .welcome {
+    margin-top: 39px;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 16px;
+    color: #afafaf;
+}
+.label .title{
+    width:100%;
+    /*height: 51px;*/
+    height: auto;
+    /*background-color: #ff8a96;*/
+    position: relative;
+}
+.label .title .t_left{
+    float:left;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+}
+.label .title .t_right{
+    position: relative;
+    float:right;
+}
+.label .title .t_right .img {
+    /*width: 40px;*/
+    float: left;
+    position: relative;
+}
+.label .title .t_right .img .fa-star-o{
+    font-size: 30px;
+    color: #afafaf;
+    float: left;
+    margin-right: 20px;
+
+}
+.label .title .t_right .img .collect{
+
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius:7px;
+    color: #000000;
+    font-size: 13px;
+    box-shadow:0px 5px 5px #acacac;
+    margin-top: 30px;
+    display: none;
+}
+.label .title .t_right .img .fa-clock-o{
+    /*所有都是clock相对位子*/
+    font-size: 30px;
+    color: #afafaf;
+    margin-right: 15px;
+}
+.label .title .t_right .img .history{
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius:7px;
+    color: #000000;
+    font-size: 13px;
+    box-shadow:0px 5px 5px #acacac;
+    display: none;
+}
+.label .title .t_right .img .fa-star-o:hover{
+    color: #3F82B7;
+}
+.label .title .t_right .img .fa-clock-o:hover{
+    color: #3F82B7;}
+.label .title .t_right .img:hover .collect{
+    display: block;
+}
+.label .title .t_right .img:hover .history{
+    display: block;
+}
+
+.record{
+    width:100%;
+    height: auto;
+    position: relative;
+}
+
+.name {
+    position: relative;
+    width:100%;
+    /*height:51px;*/
+    height: auto;
+    margin-top: 80px;
+    /*background-color: #5bf7ff;*/
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.function {
+    width:100%;
+    /*height: 354px;*/
+    height: auto;
+    /*background-color: #83ff37;*/
+    position: relative;
+    display: flex;
+}
+.function .showcase_base{
+    width: 280px;
+    height: auto;
+    background-color: transparent;
+    padding: 1px 1px;
+    -webkit-box-shadow: rgb(255, 255, 255) 0px 4px 7px 1px inset, rgba(179, 191, 211, 0.247059) 0px -5px 20px 0px inset, rgba(0, 30, 73, 0.137255) 0px 2px 6px 0px, rgba(0, 43, 85, 0.0470588) 0px 10px 20px 0px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.function .showcase_top{
+    height: 200px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #00c1de;
+    background-image: url(https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/explore/cards/zhong-ji-suan-fa/img);
+    background-size: 350px 200px;
+    background-position: right center;
+}
+.function .showcase_top .word{
+    width: 250px;
+    height: 185px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    display: block;
+}
+.function .showcase_top .t_word{
+    width: 250px;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
+}
+.function .showcase_top .f_word{
+    width: 250px;
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-top: 7px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
+
+}
+.function .showcase_top .d_word{
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 500;
+    bottom: 10px;
+    color: rgb(51, 51, 51);
+    height: 23px;
+    opacity: 0.89;
+    position: absolute;
+
+}
+.function .showcase_bottom{
+    width: 280px;
+    height: 84px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    position: relative;
+}
+.function .showcase_bottom ul li {
+    width:88px;
+    float: left;
+    margin:1px;
+    position: relative;
+
+}
+.function .showcase_bottom .data{
+    width: 88px;
+    float: left;
+    min-height: 1px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    display: block;
+}
+.function .showcase_bottom .d_data{
+    width: 57.5px;
+    line-height: 44px;
+    font-size: 26px;
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+}
+.function .showcase_bottom .w_data{
+    width: 57.5px;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    margin-top: -5px;
+}
+.function .showcase_bottom .percent{
+    width: 70px;
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 42px;
+    position: absolute;
+    margin-left: 30px;
+
+}
+.function .play{
+    width: 68px;
+    height: 68px;
+    border: 5px solid #E6E6E8;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -125px;
+}
+.fa-caret-right {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
+}
+.function .play:hover{
+    box-shadow:0px 10px 20px #c5c5c5;
+    
+}
+.fa-caret-right:hover{
+    color: #08c;
+}
+.function .showcase_base:hover{
+    box-shadow:0px 10px 20px #c5c5c5;
+    transition:5s;
+}
+
+
+
+
+.test {
+    width:100%;
+    /*height: 354px;*/
+    height: auto;
+    background-color: #c0fcff;
+    position: relative;
+}
+.footer {
+    width:100%;
+    /*height: 90px;*/
+    height: auto;
+    background-color: #fc40ff;
+    position: fixed;
+    /*margin-top: 954px;*/
+}

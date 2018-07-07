@@ -1,0 +1,422 @@
+body{
+    background-color: #fafafa;
+}
+/*字体样式*/
+.base{  font-family: sans-serif;}
+/*列表样式*/
+.list {list-style: none;}
+
+
+.title{
+    width: 1366px;
+    height: 300px;
+    /*margin-left:98px;*/
+    background-image: url(https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/explore/cards/zhong-ji-suan-fa/banner);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 14px;
+    /*line-height: 23px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    margin-top: -20px;
+    position: relative;
+}
+.title .word{
+    width:1140px;
+    height: 164px;
+    margin-left:113px;
+    /*background-color: #3F82B7;*/
+    /*box-sizing: border-box;*/
+}
+.title .label{
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    color: white;
+    /*background-color: rgba(0, 0, 0, 0);*/
+
+}
+.title .train{
+    float: left;
+    width: 735px;
+    height: 18px;
+    font-size: 16px;
+    color:#fff;
+    margin-left:390px;
+    margin-top: 55px;
+    opacity: 0.8;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
+    /*background-color: #95a5a6;*/
+}
+.title .name{
+    float: left;
+    width: 735px;
+    height: auto;
+    font-size: 30px;
+    color:#fff;
+    padding-top: 10px;
+    margin-left:390px;
+    /*background-color: #95a5a6;*/
+}
+.uncollect{
+    padding:3px;
+    color: #fff;
+}
+.title .button{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 1020px;
+    background-color: rgb(251, 193, 42);
+    position: absolute;
+    float: left;
+    margin-left: 910px;
+    margin-top: -25px;
+}
+
+.main{
+    width: 1215px;
+    height: auto;
+    margin-left:75.5px;
+    display: flex;
+}
+.concept{
+    width: 390px;
+    height: auto;
+    position: relative;
+    background-color: #fc40ff;
+}
+.item{
+    width: 360px;
+    height: 117px;
+    /*margin-left: 15px;*/
+    margin-top: -30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #222;
+    color: #fff;
+    float: left;
+    box-shadow:5px 10px 10px rgba(0,0,0,.08);
+    border-bottom: 1px solid grey;
+}
+.item:hover{
+    box-shadow:0px 10px 20px #c5c5c5;
+    background: #000000;
+    transition:.5s;
+
+}
+/*.item .word{*/
+    /*width: 315px;*/
+    /*height: 85px;*/
+    /*position: absolute;*/
+    /*float: left;*/
+    /*margin-left: 22.5px;*/
+    /*margin-top: 20px;*/
+    /*!*border: 1px solid red;*!*/
+    /*!*cursor: pointer;*!*/
+/*}*/
+.look{
+    padding: 5px;
+    font-size: 25px;
+    position: absolute;
+}
+.square{
+    width: 360px;
+    height: 117px;
+    background:#fff;
+    float: left;
+    box-shadow:0px 10px 10px rgba(0,0,0,.08);
+    border-bottom: 1px solid rgba(128,128,128,.08);
+}
+.square:hover{
+    box-shadow:0px 10px 20px #c5c5c5;
+    background: #ecf0f1 ;
+    transition:.5s;
+}
+/*.square .word{*/
+    /*width: 315px;*/
+    /*height: 85px;*/
+    /*position: absolute;*/
+    /*margin-left: 22.5px;*/
+    /*margin-top: 20px;*/
+    /*!*border: 1px solid red;*!*/
+    /*!*cursor: pointer;*!*/
+/*}*/
+/*.square .word .select{*/
+    /*border: 3.5px solid #ddd;*/
+    /*position: absolute;*/
+    /*margin-left: 5px;*/
+    /*margin-top: 10px;*/
+    /*border-radius:100px;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+/*}*/
+.bottom{
+    width: 360px;
+    height: 117px;
+    background:#fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: left;
+    box-shadow:0px 10px 10px rgba(0,0,0,.08);
+}
+.bottom:hover{
+    box-shadow:0px 10px 20px #c5c5c5;
+    background: #ecf0f1 ;
+    transition:.5s;
+}
+.word{
+    width: 315px;
+    height: 85px;
+    position: absolute;
+    float: left;
+    margin-left: 22.5px;
+    margin-top: 20px;
+}
+.word .select{
+    border: 3.5px solid #ddd;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius:100px;
+    width: 16px;
+    height: 16px;
+}
+.word1 .p1{
+    margin-top: 8px;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.word1 .p2{
+    margin-left: 40px;
+    font-size: 15px;
+    opacity: .5;
+    overflow: hidden;
+    max-height: 2.6em;
+    line-height: 1.3em;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+.intor{
+    width: 825px;
+    height: 1000px;
+    /*background-color: #9d9d9d;*/
+}
+.intor .text{
+    width: 735px;
+    line-height: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.intor .text .p1{
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #000;
+}
+.intor .text .p2{
+    padding-top: 20px;
+    font-size: 18px;
+    color: grey;
+}
+.intor .text ol{
+    width: 180px;
+    padding-left: 45px;
+    color: grey;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.intor .text .p3{
+    color: #08c;
+}
+.intor .text .sentence{
+    display: flex;
+}
+.intor .text .p4{
+    padding-top: 20px;
+    font-size: 18px;
+    color: grey;
+}
+.intor .text .p5{
+    /*padding-top: 20px;*/
+    margin:20px 10px 10px 10px;
+    font-size: 95%;
+    background-color: #f9f2f4;
+    color: #c7254e;
+}
+.intor .text ol .p3:hover{
+    color: #23527c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.intor .text .line{
+    border-top:1px solid grey;
+    opacity: 0.5;
+}
+.intor .share{
+    display: flex;
+}
+.intor .share-buttons{
+    font-size: 18px;
+    margin-left: 440px;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+.intor .share .fa-weibo{
+    margin-right: 10px;
+    color: #ec0017;
+    cursor: pointer;
+}
+.intor .share .fa-weixin{
+    margin-right: 10px;
+    color: #2ec102;
+    cursor: pointer;
+}
+.intor .share .fa-qq{
+    margin-right: 10px;
+    color: #0098e6;
+    cursor: pointer;
+}
+.intor .share .fa-renren{
+    margin-right: 10px;
+    color: #207cc5;
+    cursor: pointer;
+}
+.intor .share .fa-facebook{
+    margin-right: 10px;
+    color: #072;
+    cursor: pointer;
+}
+.intor .share .fa-linkedin-square{
+    margin-right: 10px;
+    color: #0085af;
+    cursor: pointer;
+}
+.intor span:hover {
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: .7;
+}
+.intor .table{
+    width: 733px;
+    line-height: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 20px;
+}
+.intor .table .header {
+    /*position: relative;*/
+    /*z-index: 1;*/
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.08);
+    cursor: pointer;
+    display: flex;
+}
+.intor .table .header .head{
+    margin: 15px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.intor .table .header:hover .head{
+    color: #08c;
+}
+.intor .table .header .select{
+    border: 3.5px solid #ddd;
+    margin-top: 14px;
+    margin-left: 610px;
+    border-radius:100px;
+    width: 22px;
+    height: 22px;
+}
+.intor .table .row{
+    height: 53px;
+    width: 733px;
+    /*background-color: #00c1de;*/
+    display: flex;
+    /*border-left: 0.5px solid #ddd;*/
+    /*border-right: 0.5px solid #ddd;*/
+    font-size: 14px;
+}
+.intor .topic{
+    width: 250px;
+    height: 30px;
+    margin-top: 11px;
+    display: flex;
+    /*border: 1px solid red;*/
+}
+.intor .choose{
+    margin-top:10px;
+    margin-left: 15px;
+    border: 2.5px solid #ddd;
+    border-radius: 5px;
+    width: 14px;
+    height: 14px;
+}
+.intor .table .fa-file-code-o{
+    margin-top: 11px;
+    margin-left: 15px;
+    margin-right:8px ;
+}
+.intor .table .p6{
+    margin-top: 5px;
+}
+.intor .table .rank_odd {
+    width: 366px;
+    height: 52px;
+    border:1px solid #ddd ;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.intor .table .rank_even{
+    width: 366px;
+    height: 52px;
+    border:1px solid #ddd ;
+    cursor: pointer;
+    background: #fafafa;
+}
+.intor .table .rank_lost_left {
+    width: 366px;
+    height: 52px;
+    border:1px solid #ddd ;
+    border-bottom-left-radius:10px;
+    cursor: pointer;
+    /*最后一行的颜色自行计算*/
+    background: #fafafa;
+    /*background: #f5f5f5;*/
+}
+.intor .table .rank_lost_right{
+    width: 366px;
+    height: 52px;
+    border:1px solid #ddd ;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background: #fafafa;
+    /*background: #f5f5f5;*/
+}
+.intor .table .rank_odd:hover{
+    background: #ecf0f1 ;
+}
+.intor .table .rank_even:hover{
+    background: #ecf0f1 ;
+}
+
