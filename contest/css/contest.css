@@ -1,0 +1,374 @@
+* {
+   box-sizing: unset;
+}
+
+a:hover{
+    text-decoration: none;
+}
+body {
+    font-size: 14px;
+    margin: 0 0;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.42857143;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+    width: 1423px;
+    height: 52px;
+    background-color: rgb(34, 34, 34);
+    border-bottom-color: rgb(8, 8, 8);
+}
+
+.wrap {
+    height: 470px;
+    background: linear-gradient(-150deg, #222 15%, #373737 70%, #3c4859 94%);
+
+}
+
+.wrap .contain {
+    height: 370px;
+    width: 870px;
+    padding: 0 150px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.wrap .contain .logo {
+    position: static;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+    width: 870px;
+    height: 150px;
+
+}
+
+.wrap .contain .logo img {
+    height: 150px;
+}
+
+.wrap .contain .sub-title {
+    color: #fff;
+    font-size: 36px;
+}
+
+.wrap .contain .sub-title .hlight {
+    color: gray;
+}
+
+.wrap .contain .sub-container {
+    margin-top: 30px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cards {
+    width: 900px;
+    height: 320px;
+    position: absolute;
+
+    margin-top: -80px;
+}
+
+.card1 {
+    border-radius: 16px;
+    margin: 15px 15px;
+    float: left;
+    width: 460px;
+    height: 220px;
+    padding: 20px 20px 0 20px;
+    background: linear-gradient(#fffc43, #ffd479);
+    position: relative;
+    color: #000;
+}
+.card1 .title{
+    color: #afafaf;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.card1 .week{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card1 .add{
+    margin-top: 10px;
+}
+.card1 .add a{
+    color: black;
+    margin-left: 5px;
+
+}
+.card1 .add a:hover{
+    text-decoration: underline;
+}
+.card1 .start-time{
+    position: absolute;
+    bottom: 20px;
+}
+
+
+
+.card2 {
+    border-radius: 20px;
+    margin: 15px 15px;
+    float: left;
+    width: 320px;
+    height: 240px;
+    background: linear-gradient(#c9f, #e24ce1);
+    position: relative;
+
+}
+.card2 .card2-contain{
+    padding: 20px;
+}
+.card2 .card2-contain .info{
+    color: #fff;
+
+}
+
+.card2 .card2-contain .title{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.card-lock {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    color: #fff;
+    opacity: 0.25;
+    font-size: 80px;
+    transition: all .5s;
+}
+
+.card-lock:hover {
+    transform-origin: 100% 100%;
+    transform: scale(1.5, 1.5);
+
+}
+
+.contain {
+    width: 870px;
+    height: 1024px;
+    padding: 0 150px;
+    margin: auto;
+    position: relative;
+
+}
+
+.contain .rank {
+    height: 200px;
+    width: 41.66666%;
+    top: 190px;
+    position: relative;
+    margin: 15px 15px;
+    float: left;
+
+}
+
+.contain .contest-list {
+
+    top: 190px;
+
+    position: relative;
+    width: 51%;
+    float: left;
+    margin: 15px 15px;
+}
+
+.contain .rank-list {
+    border-radius: 20px;
+    background: #fafafa;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
+}
+
+
+
+.rank-list .item {
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-top:1px dotted #ddd;
+    padding: 10px 0;
+}
+
+.rank-list .item .no {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rank-list .item .photo {
+    display: inline-block;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.rank-list .item .photo img {
+    width: 30px;
+    border-radius: 100px;
+}
+
+.rank-list .item .info-name {
+    display: inline-block;
+    margin-left: 10px;
+}
+.info-name .name{
+    text-align: left;
+    color: black;
+}
+.info-name .info{
+    line-height: 14px;
+    font-size: 11px;
+}
+.rank-list .item .nationality {
+    display: inline;
+    padding-left: 145px;
+
+}
+
+.nationality img {
+    width: 20px;
+    height: 26px;
+    border-radius: 10px;
+}
+
+.rank .top{
+   height: 265px;
+    position: relative;
+}
+.top3base{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+
+}
+.top3base .touxiang img:hover{
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.3);
+}
+.top3base .touxiang img{
+
+    border: 5px solid #d7a807;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
+    transition: box-shadow .4s;
+}
+.top1{
+
+    margin: 0 auto;
+}
+.top2{
+    position: absolute;
+    left: 50px;
+    float: left;
+
+}
+.top2 .touxiang img{
+    border: 5px solid hsla(0,0%,100%,.4);
+}
+.top3{
+    float: left;
+    position: absolute;
+    right: 50px;
+}
+.top3 .touxiang img{
+    border: 5px solid #facfa3;
+}
+
+.item:hover{
+    background: #ecf0f1;
+}
+.item-more{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 63px;
+    border-top:1px dotted #ddd ;
+
+}
+.item-more a{
+    padding-top: 10px;
+    vertical-align: middle;
+    color: #08c;
+    display: inline-block
+}
+.item-more:hover{
+    background: #ecf0f1;
+}
+a{
+    text-decoration: none;
+}
+
+.contest-list{
+    position: relative;
+    border-radius: 20px;
+    background: #fafafa;
+    transition: box-shadow .4s;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
+
+}
+.contest-list:hover{
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.3);
+}
+
+.contest-list .heading{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.contest-list .heading .info{
+    color: #afafaf;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contest-base .table-feild{
+    padding: 13px 0;
+}
+.contest-base .table-feild .title{
+    transition: all .4s;
+    color: #373737;
+}
+
+.contest-base .table-f1{
+    padding-left: 20px;
+
+}
+.contest-base .table-f1:hover .title{
+    color: #08B;
+}
+
+.contest-base .table-f2{
+    vertical-align: middle;
+}
+.table-f2 button{
+    margin-right: 10px;
+    float: right;
+    border-radius: 5px;
+    background: #e24ce1;
+    font-style: italic;
+
+
+}
+.table-f2 a:hover {
+    color: white;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.15);
+}
