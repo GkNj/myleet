@@ -1,0 +1,96 @@
+.footer {
+    width: 1349px;
+    height: 70px;
+    position: relative;
+}
+
+.footer .left {
+    margin-left: 20px;
+    width: 488px;
+    height: 70px;
+    position: absolute;
+}
+
+.footer .left span {
+    color: gray;
+}
+
+.footer .left .p1 span {
+    margin-left: 100px;
+    width: 256.92px;
+    height: 16px;
+}
+
+.footer .left .p2 span {
+    width: 109.39px;
+    height: 14px;
+    top: 7px;
+    margin-left: 100px;
+}
+
+.footer .right {
+    width: 683px;
+    height: 70px;
+    float: right;
+}
+
+.footer .right .links {
+    width: 680px;
+    height: 23px;
+    margin-left: 50px;
+}
+
+.footer .right a {
+    color: gray;
+}
+
+
+.footer .right .links ul {
+    list-style: none;
+}
+
+.footer .right .links ul li {
+    float: left;
+}
+
+.footer .right .links ul li .fengefu {
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 6px;
+    border: solid gray 1px
+}
+
+.footer .right .links ul a span:hover {
+    text-decoration: underline;
+}
+
+.footer .right .links ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer .right .last {
+    width: 683px;
+    height: 26px;
+    margin-left: 0px;
+}
+.footer .right .last span{
+    float: right;
+    margin-right: 110px;
+}
+.footer .right .last img{
+    margin-left: 310px;
+}
+
+.footer .right .last span:hover {
+    text-decoration: none;
+}
+hr{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+/*底部结束*/
