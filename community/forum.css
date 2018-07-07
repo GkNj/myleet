@@ -659,7 +659,54 @@ tr{
     margin-right: 10px;
     color: #333333;
 }
+.bm_c1 .f1_row .abc .data{
 
+}
+.abcde em{
+    margin-left: 3px;
+    font-weight: normal;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    height: 13px;
+    line-height: 12px;
+    font-size: 9px;
+    font-family: Tahoma,Helvetica,sans-serif;
+    background: #356DD0 !important;
+    font-style: normal;
+}
+.ab em{
+    margin-left: 3px;
+    font-weight: normal;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    height: 13px;
+    line-height: 12px;
+    font-size: 9px;
+    font-family: Tahoma,Helvetica,sans-serif;
+    background: #356DD0 !important;
+    font-style: normal;
+}
+.abc em{
+    margin-left: 3px;
+    font-weight: normal;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    height: 13px;
+    line-height: 12px;
+    font-size: 9px;
+    font-family: Tahoma,Helvetica,sans-serif;
+    background: #356DD0 !important;
+    font-style: normal;
+}
+em:hover{
+    cursor: pointer;
+}
 .bm_c1 .f1_row .abc h2 a:hover {
     text-decoration: underline;
 }
