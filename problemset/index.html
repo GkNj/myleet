@@ -2,20 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="resource/bootstrap/js/jquery-3.3.1.js" rel="script" type="text/javascript">
     <link rel="stylesheet" type="text/css" href="../common/common.css">
+    <link rel="stylesheet" type="text/css" href="resource/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../common/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--<link href="resource/bootstrap/js/bootstrap.js" rel="script" type="text/javascript">-->
+    <!--<link href="resource/bootstrap/js/jquery-3.3.1.js" rel="script" type="text/javascript">-->
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+
     <link href="index.css" type="text/css" rel="stylesheet">
     <title>题库</title>
 </head>
 <body>
 
 <!--导航栏-->
-<div class="navbar">
+<div class="navybar">
     <div class="container">
         <div class="logo">
             <img src="../common/img/LeetCode_nav.4d940ca7.png" alt="" height="30px">
         </div>
-        <div class="navbar-menu-left">
+        <div class="navybar-menu-left">
             <ul>
                 <li><a href="#">探索</a></li>
                 <li><a href="#">题库</a></li>
@@ -28,7 +39,7 @@
             </ul>
         </div>
 
-        <div class="navbar-menu-right">
+        <div class="navybar-menu-right">
             <ul>
                 <li>
                     <img src="../common/img/LeetCode_Playground.png" alt="" height="26px" class="playground">
@@ -48,53 +59,523 @@
 
 <div class="main">
 
+    <div class="row">
+        <!--左侧栏-->
+        <div class="row-left">
+            <!--分类-->
+            <div class="type-all">
+                <div class="type-all-text">
+                    <i class="fa fa-th-large"></i>
+                    分类 - 全部
+                </div>
+                <p></p>
+                <div class="type-all-block">
+                    <a href="">
+                        <div class="algorithm">
+                            <div>
+                                算法
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="database">
+                            <div>数据库</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="shell">
+                            <div>
+                                Shell
+                            </div>
+                        </div>
+                    </a>
 
-</div>
-<div class="footer">
+                </div>
+            </div>
+            <!--分类结束-->
 
-    <div class="left">
-        <div class="p1">
-            <span>Copyright © 2018 力扣信息科技 版权所有</span>
+            <!--下划线-->
+            <div class="line">
+                <hr>
+            </div>
+            <!--下划线结束-->
+
+            <!--徽章开始-->
+            <div class="badge-info">
+                <div class="badge-left">
+                    <span class="badge solution">已解决 0/668</span>
+                    <span class="badge easy">简单 0</span>
+                    <span class="badge middle">中等 0</span>
+                    <span class="badge difficulty">困难 0</span>
+
+                </div>
+
+                <div class="badge-right">
+                    <button class="btn btn-default">随机开始<i class="fa fa-random"></i></button>
+                </div>
+
+            </div>
+            <!--徽章结束-->
+            <!--分割线-->
+            <div class="split-line">
+                <div class="line-left"></div>
+                <div class="line-middle"></div>
+                <div class="line-right"></div>
+            </div>
+
+            <div class="search-block">
+                <div class="search">
+                    <input type="text" class="form-control" placeholder="搜索题目 名称、内容 或 编号">
+                </div>
+                <div class="labels">
+
+                    <div>
+                        <i class=" fa fa-file-text-o pop"
+                           data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top"
+                           data-content="解答">
+                        </i>
+                        <script>
+                            $(function () {
+                                $("[data-toggle='popover']").popover();
+                            });
+                        </script>
+                    </div>
+
+
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            难度 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">简单</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">中等</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">困难</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            状态 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">未做</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">已解答</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">尝试过</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            列表 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">BFS</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">Favorite</a>
+                            </li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">链表</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            标签 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu-label dropdown-menu">
+
+                            <div class="input-group dropdown-search">
+                                <input type="text" class="form-control" placeholder="筛选 话题"
+                                       aria-describedby="basic-addon1">
+                            </div>
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" class="active"><a href="#"
+                                                                          style="margin: 0 0 0 5px;padding: 0 5px 0 5px">话题</a>
+                                </li>
+                            </ul>
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">数组</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">哈希表</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">链表</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">数学</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">双指针</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">字符串</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">二分查找</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">分治算法</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="table-list">
+                <table class="table table-hover table-striped mytable">
+                    <thead>
+                    <tr class="title">
+                        <td class="td-flag"></td>
+                        <td class="td-sharp">#</td>
+                        <td class="td-title">题名</td>
+                        <td class="td-solution">解答</td>
+                        <td class="td-past">通过率</td>
+                        <td class="td-diff">难度</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><i class="text-success fa fa-check"></i></td>
+                        <td>1</td>
+                        <td><a href="#">两数之和 <i></i> </a></td>
+                        <td><a href="#" class="td-a"></a> <i class=" fa fa-file-text table-s"></i></td>
+                        <td>45.3%</td>
+                        <td><span class="badge easy">简单</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>2</td>
+                        <td><a href="">两数相加</a></td>
+                        <td><a href="#" class="td-a"></a> <i class=" fa fa-file-text table-s"></i></td>
+                        <td>28.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>4</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>5</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>6</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>7</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>8</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>9</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>10</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    </tbody>
+
+                    <tbody class="tbody-footer">
+                    <tr>
+                        <td colspan="2">
+                            <div class="dropdown my-page-num">
+                                <button class="btn btn-default dropdown-toggle page-num" type="button"
+                                        id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    20
+                                    <i class="fa fa-sort"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">50</a></li>
+                                    <li><a href="#">100</a></li>
+                                    <li><a href="#">全部</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <span>每页数量</span></td>
+
+
+                        <td colspan="3">
+                            <ul>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page active">1</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">2</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">3</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">4</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">5</button>
+                                </li>
+                                <li class="li-page li-next">
+                                    <button class="btn btn-default btn-page btn-next"></button>
+                                </li>
+                            </ul>
+                        </td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div class="p2">
-            <span>沪ICP备17051546号</span>
+
+        <!--右侧栏-->
+        <div class="row-right">
+            <!--微信公众号-->
+            <div class="wechat">
+                <img style="margin-top: 15px" src="resource/img/wexin-qr.png" alt="" width="70px">
+                <p>
+                    <i class="fa fa-wechat"></i>
+                    扫码关注官方微信公众号
+                </p>
+            </div>
+            <!--微信公众号结束-->
+
+
+            <!--我的进度-->
+            <div>
+                <div class="type-all-text">
+                    <i class="fa fa-bar-chart"> </i>
+                    我的进度
+                </div>
+                <div class="panel-chart">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="height: 40px ;font-size: 14px;font-weight: 400">
+                            <div>
+                                <h3 class="panel-title title-head">当前进度: </h3>
+                                <div class="dropdown title-head">
+                                    <button class="btn btn-default dropdown-toggle  title-head-drop " type="button"
+
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        未命名进度
+                                        <i class="fa fa-sort"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a href="#">50</a></li>
+                                        <li><a href="#">100</a></li>
+                                        <li><a href="#">全部</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="panel-body">
+                            <div class="my-chart">
+                                <div data-highcharts-chart="0">
+                                    <div id="highcharts-71nl6pq-0" class="highcharts-container "
+                                         style="position: relative; overflow: hidden; width: 202px; height: 200px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                        <svg version="1.1" class="highcharts-root"
+                                             style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;"
+                                             xmlns="http://www.w3.org/2000/svg" width="202" height="200"
+                                             viewBox="0 0 202 200">
+                                            <desc>Created with Highcharts 5.0.12</desc>
+                                            <defs>
+                                                <clipPath id="highcharts-71nl6pq-1">
+                                                    <rect x="0" y="0" width="182" height="175" fill="none"></rect>
+                                                </clipPath>
+                                            </defs>
+                                            <rect fill="none" class="highcharts-background" x="0" y="0" width="202"
+                                                  height="200" rx="0" ry="0"></rect>
+                                            <rect fill="none" class="highcharts-plot-background" x="10" y="10"
+                                                  width="182" height="175"></rect>
+                                            <rect fill="none" class="highcharts-plot-border" x="10" y="10" width="182"
+                                                  height="175"></rect>
+                                            <g class="highcharts-series-group">
+                                                <g class="highcharts-series highcharts-series-0 highcharts-pie-series highcharts-color-undefined highcharts-tracker "
+                                                   transform="translate(10,10) scale(1 1)">
+                                                    <path fill="#428bca"
+                                                          d="M 136.36392457115045 13.929291294080286 A 77.5 77.5 0 1 1 111.89235405479945 10.0000747590652 L 111.89235405479945 10.0000747590652 A 77.5 77.5 0 1 0 136.36392457115045 13.929291294080286 Z"
+                                                          class="highcharts-halo highcharts-color-2"
+                                                          fill-opacity="0.25"></path>
+                                                    <path fill="#5cb85c"
+                                                          d="M 90.98421532671362 10.000001607457506 A 77.5 77.5 0 0 1 111.80582459975065 12.84500912380733 L 91 87.5 A 0 0 0 0 0 91 87.5 Z"
+                                                          transform="translate(0,0)" stroke="#ffffff" stroke-width="1"
+                                                          stroke-linejoin="round"
+                                                          class="highcharts-point highcharts-color-0 highcharts-drilldown-point"
+                                                          style="cursor:pointer;"></path>
+                                                    <path fill="#f0ad4e"
+                                                          d="M 111.8804691752729 12.865852272431766 A 77.5 77.5 0 0 1 115.29034169274507 13.904964158921075 L 91 87.5 A 0 0 0 0 0 91 87.5 Z"
+                                                          transform="translate(0,0)" stroke="#ffffff" stroke-width="1"
+                                                          stroke-linejoin="round"
+                                                          class="highcharts-point highcharts-color-1"></path>
+                                                    <path fill="#428bca"
+                                                          d="M 115.36392457115046 13.929291294080286 A 77.5 77.5 0 1 1 90.89235405479945 10.0000747590652 L 91 87.5 A 0 0 0 1 0 91 87.5 Z"
+                                                          transform="translate(0,0)" stroke="#ffffff" stroke-width="1"
+                                                          stroke-linejoin="round"
+                                                          class="highcharts-point highcharts-color-2 "></path>
+                                                </g>
+                                                <g class="highcharts-markers highcharts-series-0 highcharts-pie-series highcharts-color-undefined "
+                                                   transform="translate(10,10) scale(1 1)"></g>
+                                            </g>
+                                            <g class="highcharts-legend">
+                                                <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0"
+                                                      y="0" width="8" height="8" visibility="hidden"></rect>
+                                                <g>
+                                                    <g></g>
+                                                </g>
+                                            </g>
+                                            <text x="192" class="highcharts-credits" text-anchor="end"
+                                                  style="cursor:pointer;color:#999999;font-size:9px;fill:#999999;"
+                                                  y="195">Highcharts.com
+                                            </text>
+                                            <g class="highcharts-label highcharts-tooltip highcharts-color-2"
+                                               style="cursor:default;pointer-events:none;white-space:nowrap;"
+                                               transform="translate(166,-9999)" opacity="0" visibility="visible">
+                                                <path fill="none" class="highcharts-label-box highcharts-tooltip-box"
+                                                      d="M 3.5 0.5 L 59.5 0.5 C 62.5 0.5 62.5 0.5 62.5 3.5 L 62.5 46.5 C 62.5 49.5 62.5 49.5 59.5 49.5 L 3.5 49.5 C 0.5 49.5 0.5 49.5 0.5 46.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+                                                      isShadow="true" stroke="#000000"
+                                                      stroke-opacity="0.049999999999999996" stroke-width="5"
+                                                      transform="translate(1, 1)"></path>
+                                                <path fill="none" class="highcharts-label-box highcharts-tooltip-box"
+                                                      d="M 3.5 0.5 L 59.5 0.5 C 62.5 0.5 62.5 0.5 62.5 3.5 L 62.5 46.5 C 62.5 49.5 62.5 49.5 59.5 49.5 L 3.5 49.5 C 0.5 49.5 0.5 49.5 0.5 46.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+                                                      isShadow="true" stroke="#000000"
+                                                      stroke-opacity="0.09999999999999999" stroke-width="3"
+                                                      transform="translate(1, 1)"></path>
+                                                <path fill="none" class="highcharts-label-box highcharts-tooltip-box"
+                                                      d="M 3.5 0.5 L 59.5 0.5 C 62.5 0.5 62.5 0.5 62.5 3.5 L 62.5 46.5 C 62.5 49.5 62.5 49.5 59.5 49.5 L 3.5 49.5 C 0.5 49.5 0.5 49.5 0.5 46.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+                                                      isShadow="true" stroke="#000000" stroke-opacity="0.15"
+                                                      stroke-width="1" transform="translate(1, 1)"></path>
+                                                <path fill="rgba(247,247,247,0.85)"
+                                                      class="highcharts-label-box highcharts-tooltip-box"
+                                                      d="M 3.5 0.5 L 59.5 0.5 C 62.5 0.5 62.5 0.5 62.5 3.5 L 62.5 46.5 C 62.5 49.5 62.5 49.5 59.5 49.5 L 3.5 49.5 C 0.5 49.5 0.5 49.5 0.5 46.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5"
+                                                      stroke="#428bca" stroke-width="1"></path>
+                                                <text x="8" style="font-size:12px;color:#333333;fill:#333333;" y="20">
+                                                    <tspan style="fill:#428bca">未做</tspan>
+                                                    <tspan style="font-weight:bold" x="8" dy="15">94.92%</tspan>
+                                                </text>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="text-li">
+                                    <li>
+                                        <div class="text-li-no">
+                                            <div>635</div>
+                                            <br>
+                                            <span>未做</span>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="text-li-do">
+
+                                            <div>29 / 669</div>
+                                            <br>
+                                            <span>已解答</span>
+                                        </div>
+
+
+                                    </li>
+                                    <li>
+                                        <div class="text-li-try">
+                                            <div>5</div>
+                                            <br>
+                                            <span>尝试过</span>
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                        <div class="panel-footer" style="height: 30px">
+
+                            <div>经验：1302</div>
+                            <div>1302 <img src="resource/img/LeetCoin.png" alt="" width="10px"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--热门推荐-->
+            <div class="hot">
+                <div class="type-all-text">
+                    <i class="glyphicon glyphicon-fire"> </i>
+                    热门推荐
+                </div>
+                <div class="list-group-item  ">
+                    <a href="#" class="text-gray text-400">
+                        <div class="list-content-wrapper">
+                            <div class="pull-right"></div>
+                            <span><i class="glyphicon glyphicon-heart contribute-icon"
+                                     aria-hidden="true"></i>&nbsp; 贡献题目</span></div>
+                    </a>
+                </div>
+                <hr style="width: 100%;border-top: 1px solid #eee">
+            </div>
+
+
+
+            <div class="topic">
+                <div class="type-all-text">
+                    <i class="fa fa-bookmark-o"> </i>
+                    话题分类
+                </div>
+            </div>
         </div>
+
     </div>
 
-    <div class="right">
-        <div class="links">
-            <ul>
-                <li><a href="#">联系我们</a>&nbsp;&nbsp;&nbsp;</li>
-                <li>
-                    <div class="fengefu"></div>
-                </li>
-                <li><a href="#">加入我们</a>&nbsp;&nbsp;&nbsp;</li>
-                <li>
-                    <div class="fengefu"></div>
-                </li>
-                <li><a href="#">常见问题</a>&nbsp;&nbsp;&nbsp;</li>
-                <li>
-                    <div class="fengefu"></div>
-                </li>
-                <li><a href="#">适用条例</a>&nbsp;&nbsp;&nbsp;</li>
-                <li>
-                    <div class="fengefu"></div>
-                </li>
-                <li><a href="#">隐私政策</a>&nbsp;&nbsp;&nbsp;</li>
-                <li><a href="#" class="china"></a></li>
-                <a><img src="resource/img/cn.svg" alt="" width="14px" height="14px">
-                    <span>中国</span>
-                </a>
-            </ul>
-        </div>
-        <div class="last">
-            <a href=""><img src="resource/img/beian.png" width="12px" height="12px" alt="">
-                <span>
-                沪公网安备 31011502007040号
-              </span>
-            </a>
-        </div>
-    </div>
 </div>
+
 </body>
 </html>

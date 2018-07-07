@@ -8,6 +8,11 @@ a {
     color: white;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 font {
     font-size: 14px;
 }
+

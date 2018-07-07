@@ -1,5 +1,5 @@
 /*导航栏*/
-.navbar {
+.navybar {
     margin-bottom: 20px;
     width: 100%;
     height: 52px;
@@ -28,34 +28,34 @@
     opacity: 1;
 }
 
-.navbar-menu-left {
+.navybar-menu-left {
     float: left;
     padding-top: 15px;
-    width: 60%;
+    width: 50%;
     height: 52px;
     margin: 0;
     line-height: 20px;
 }
 
-.navbar-menu-left ul {
+.navybar-menu-left ul {
     list-style: none;
 }
 
-.navbar-menu-left ul li {
+.navybar-menu-left ul li {
     float: left;
     margin-left: 12px;
     margin-right: 12px;
     font-size: 14px;
 }
 
-.navbar-menu-left ul li a {
+.navybar-menu-left ul li a {
     line-height: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #9d9d9d;
 }
 
-.navbar-menu-left ul li a:hover {
+.navybar-menu-left ul li a:hover {
     color: #fff;
 }
 
@@ -63,7 +63,7 @@
     color: #fea116;
 }
 
-.navbar-menu-right {
+.navybar-menu-right {
     float: right;
     padding-top: 15px;
     width: 20%;
@@ -72,14 +72,18 @@
     line-height: 20px;
 }
 
-.navbar-menu-right ul {
+.navybar-menu-right ul {
     list-style: none;
 }
 
-.navbar-menu-right ul li {
+.navybar-menu-right ul li {
     float: left;
     margin-left: 12px;
     margin-right: 12px;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .playground {
@@ -107,96 +111,512 @@
 }
 
 /*导航栏结束*/
-/* main*/
-.main {
-    width: 1350px;
-    height: 1000px;
-}
 
-/*底 部*/
-.footer {
-    width: 1349px;
-    height: 70px;
-    position: relative;
-}
-
-.footer .left {
-    margin-left: 20px;
-    width: 562.08px;
-    height: 70px;
-    position: absolute;
-}
-
-.footer .left span {
-    color: gray;
-}
-
-.footer .left .p1 span {
-
-    width: 256.92px;
-    height: 16px;
-}
-
-.footer .left .p2 span {
-    width: 109.39px;
-    height: 14px;
-    top: 7px;
-}
-
-.footer .right {
-    width: 756.91px;
-    height: 70px;
-    float: right;
-}
-
-.footer .right .links {
-    width: 756.91px;
-    height: 23px;
-    margin-left: 200px;
-}
-
-.footer .right a {
-    color: gray;
-}
-
-.footer .right .links {
-    width: 756.91px;
-    height: 23px;
-}
-
-.footer .right .links ul {
-    list-style: none;
-}
-
-.footer .right .links ul li {
+.row div {
     float: left;
 }
 
-.footer .right .links ul li .fengefu {
+.row {
+    align-content: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.row-left {
+    width: 70%;
+    height: 200px;
+
+}
+
+.type-all {
+    margin-bottom: 20px;
+}
+
+.type-all-text {
+    font-weight: 300;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.type-all-block div {
+
+    line-height: 100px;
+    align-content: center;
+    width: 123px;
+    height: 100px;
+    float: left;
+    vertical-align: center;
+    horiz-align: center;
+    margin-right: 20px;
+}
+
+.algorithm {
+    border-radius: 10px;
+    background: linear-gradient(#f7dc58, #fea116);
+}
+
+.algorithm div {
+    background: url("resource/img/algorithm_bg.png") no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.database {
+    border-radius: 10px;
+    background: linear-gradient(#70def7, #106afe);
+}
+
+.database div {
+    background: url("resource/img/database_bg.png") no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.shell {
+    border-radius: 10px;
+    background: linear-gradient(#8eeb98, #449d44);
+}
+
+.shell div {
+    background: url("resource/img/shell_bg.png") no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.algorithm:hover {
+    box-shadow: -5px 15px 10px rgba(26, 26, 26, .1);
+
+}
+
+.shell:hover {
+    box-shadow: -5px 15px 10px rgba(26, 26, 26, .1);
+
+}
+
+.database :hover {
+    box-shadow: -5px 15px 10px rgba(26, 26, 26, .1);
+}
+
+.line {
+    width: 100%;
+    height: auto;
+    color: #ddd;
+}
+
+/*徽章样式表*/
+.badge-info {
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.badge-left {
+    margin-top: 5px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.solution {
+    background: #337ab7;
+}
+
+.easy {
+    background: #5cb85c;
+}
+
+.middle {
+    font-family: "Microsoft YaHei UI";
+    background: #f0ad4e;
+}
+
+.difficulty {
+    background: #d9534f;
+
+}
+
+.badge-right {
+    float: right !important;
+}
+
+/*分割线*/
+.split-line {
+    height: 7px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.split-line div {
+    float: left;
+}
+
+.line-left {
+    color: #333;
+
     height: 10px;
+    width: 4%;
+    background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0));
+    z-index: 2;
+}
+
+.line-right {
+    color: #333;
+
+    z-index: 2;
+    background: -webkit-gradient(linear, left top, right top, from(hsla(0, 0%, 100%, 0)), to(#fff));;
+    background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0));
+    height: 10px;
+    width: 4%;
+}
+
+.line-middle {
+    z-index: 3;
+    width: 90%;
+    height: 7px;
+    background: linear-gradient(#fff, #f7f7f7);
+    border-bottom: 1px solid #e4eaf1;
+}
+
+/*搜索框样式表*/
+
+.search-block {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-block div {
+    float: left;
+}
+
+.search {
+    width: 50%
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 1000px;
+}
+
+.btn-self {
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+}
+
+.dropdown-toggle {
+    box-shadow: none
+}
+
+.dropdown-menu-label {
+    width: 220px;
+}
+
+.dropdown-menu .input-group .form-control {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nav-tabs {
+
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.nav-tabs a {
+    padding: 0;
+    margin: 0 0 0 5px;
+
+}
+
+.list-line {
+    margin: 0;
+    padding: 0;
+}
+
+.drop-a {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.labels {
+    float: right !important;
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 40%;
+
+    align-content: right;
+    align-self: right;
+}
+
+.labels div {
+    margin-right: 20px;
+}
+
+.table-list {
+    width: 100%;
+}
+
+.table-list .title {
+    font-weight: bold;
+}
+
+.td-flag {
+    width: 6%;
+}
+
+.td-sharp {
+    width: 7%;
+}
+
+.td-title {
+    width: 50%;
+}
+
+.td-solution {
+    width: 10%;
+}
+
+.td-past {
+    width: 13%;
+}
+
+.td-diff {
+    width: 11%;
+}
+
+.td-a {
+    color: #0088cc;
+}
+
+.table-s {
+    color: #0088cc;
+    /*background-color: ;*/
+}
+
+.tbody-footer {
+
+    background-color: #e5e5e5;
+}
+
+.page-num {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .08);
+    width: 80px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 30px;
+}
+
+.fa-sort {
     margin-left: 5px;
-    margin-right: 15px;
-    margin-top: 6px;
-    border-left: 2px;
-    border: solid gray 1px
 }
 
-.footer .right .links ul a span:hover {
-    text-decoration: underline;
+.tbody-footer tr td span {
+    color: grey;
+    font-size: 12px;
+    vertical-align: middle;
+
 }
 
-.footer .right .links ul li a:hover {
-    text-decoration: underline;
-    cursor: pointer;
+.li-page {
+
+    margin: 5px;
+    list-style: none;
+    float: left;
+    border-radius: 10px;
 }
 
-.footer .right .last {
-    width: 674.5px;
-    height: 26px;
-    margin-left: 480px;
+.li-page .active {
+    color: white;
+    background-color: #0088cc;
 }
 
-.footer .right .last span:hover {
-    text-decoration: none;
+.li-page .active:hover {
+    color: white;
+    background-color: #0088cc;
 }
-/*底部结束*/
+
+.btn-page {
+    outline: none;
+    color: #0088cc;
+    padding: 5px 0;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .08);
+}
+
+.li-next {
+    border-radius: 1030px;
+}
+
+.btn-next {
+    border-radius: 1030px !important;
+}
+
+.btn-next:after {
+    font-family: FontAwesome, serif;
+    font-size: 14px;
+    content: "\F105"
+}
+
+/*右半部分样式表*/
+.row-right {
+    margin-left: 5%;
+    width: 200px;
+    height: auto;
+    /*background-color: #ff0066;*/
+}
+
+.wechat {
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px 0 38px 0;
+    width: 100%;
+    border-radius: 5px;
+    height: 126px;
+    background: linear-gradient(#2b2b2b, #393c43);
+}
+
+.qrcode {
+
+    vertical-align: middle;
+
+}
+
+.wechat p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #8a8c8e;
+}
+
+.panel {
+    width: 100%;
+    border-radius: 10px;
+    /*border-bottom-right-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+}
+
+.panel-chart {
+    width: 100%;
+    float: none !important;
+
+}
+
+.panel-heading {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    float: none !important;
+    vertical-align: middle;
+
+}
+
+.panel-heading .title-head {
+    text-align: center;
+    font-size: 14px;
+    float: left !important;
+}
+
+.title-head-drop {
+    line-height: 1.5;
+    vertical-align: middle;
+    align-items: center;
+    height: 20px;
+    max-width: 75px;
+    text-overflow: ellipsis;
+    font-size: 12px;
+
+}
+
+.panel-body {
+    width: 100%;
+    float: none !important;
+}
+
+.panel-footer {
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 14px;
+    float: none !important;
+}
+
+.text-li li {
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px;
+    float: left;
+}
+
+.text-li li div {
+    font-weight: 500;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text-li-no {
+
+    color: #337ab7 !important;
+}
+
+.text-li-do {
+    color: #449d44 !important
+}
+
+.text-li-try {
+    color: #fea116 !important;
+}
+
+.panel-footer div {
+    vertical-align: middle;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 10px;
+    width: 50%;
+    height: 12px;
+    text-align: center;
+}
+
+.hot {
+    width: 100%;
+}
+
+.list-group-item {
+    width: 100%;
+    border: none;
+
+}
+
+.list-content-wrapper {
+
+    display: block;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.pull-right {
+    color: red;
+}
+.glyphicon-heart{
+    color: red;
+}

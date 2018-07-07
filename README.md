@@ -10,7 +10,7 @@
 
 ## 公共文件
 - common   
-    1. font-awesome 字体文件
+1. font-awesome 字体文件
     使用说明
     
 ```html
@@ -23,6 +23,8 @@
 查看图标
 
 [font awesome](http://fontawesome.dashgame.com/)
+
+
  2. 图片文件
  
  涉及到公共部分的图片文件放到 `common/img/..` 下,如头部导航栏，下部footer等
