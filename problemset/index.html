@@ -2,20 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="resource/bootstrap/js/jquery-3.3.1.js" rel="script" type="text/javascript">
+
     <link rel="stylesheet" type="text/css" href="../common/common.css">
+    <link rel="stylesheet" type="text/css" href="resource/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../common/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--<link href="resource/bootstrap/js/bootstrap.js" rel="script" type="text/javascript">-->
+    <!--<link href="resource/bootstrap/js/jquery-3.3.1.js" rel="script" type="text/javascript">-->
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
     <link href="index.css" type="text/css" rel="stylesheet">
     <title>题库</title>
 </head>
 <body>
 
 <!--导航栏-->
-<div class="navbar">
+<div class="navybar">
     <div class="container">
         <div class="logo">
             <img src="../common/img/LeetCode_nav.4d940ca7.png" alt="" height="30px">
         </div>
-        <div class="navbar-menu-left">
+        <div class="navybar-menu-left">
             <ul>
                 <li><a href="#">探索</a></li>
                 <li><a href="#">题库</a></li>
@@ -28,7 +38,7 @@
             </ul>
         </div>
 
-        <div class="navbar-menu-right">
+        <div class="navybar-menu-right">
             <ul>
                 <li>
                     <img src="../common/img/LeetCode_Playground.png" alt="" height="26px" class="playground">
@@ -48,6 +58,373 @@
 
 <div class="main">
 
+    <div class="row">
+        <!--左侧栏-->
+        <div class="row-left">
+            <!--分类-->
+            <div class="type-all">
+                <div class="type-all-text">
+                    <i class="fa fa-th-large"></i>
+                    分类 - 全部
+                </div>
+                <p></p>
+                <div class="type-all-block">
+                    <a href="">
+                        <div class="algorithm">
+                            <div>
+                                算法
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="database">
+                            <div>数据库</div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="shell">
+                            <div>
+                                Shell
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <!--分类结束-->
+
+            <!--下划线-->
+            <div class="line">
+                <hr>
+            </div>
+            <!--下划线结束-->
+
+            <!--徽章开始-->
+            <div class="badge-info">
+                <div class="badge-left">
+                    <span class="badge solution">已解决 0/668</span>
+                    <span class="badge easy">简单 0</span>
+                    <span class="badge middle">中等 0</span>
+                    <span class="badge difficulty">困难 0</span>
+
+                </div>
+
+                <div class="badge-right">
+                    <button class="btn btn-default">随机开始<i class="fa fa-random"></i></button>
+                </div>
+
+            </div>
+            <!--徽章结束-->
+            <!--分割线-->
+            <div class="split-line">
+                <div class="line-left"></div>
+                <div class="line-middle"></div>
+                <div class="line-right"></div>
+            </div>
+
+            <div class="search-block">
+                <div class="search">
+                    <input type="text" class="form-control" placeholder="搜索题目 名称、内容 或 编号">
+                </div>
+                <div class="labels">
+
+                    <div>
+                        <i class=" fa fa-file-text-o pop"
+                           data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top"
+                           data-content="解答">
+                        </i>
+                        <script>
+                            $(function () {
+                                $("[data-toggle='popover']").popover();
+                            });
+                        </script>
+                    </div>
+
+
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            难度 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">简单</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">中等</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">困难</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            状态 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">未做</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">已解答</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">尝试过</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            列表 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">BFS</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">Favorite</a>
+                            </li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">链表</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class=" btn-self " data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            标签 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu-label dropdown-menu">
+
+                            <div class="input-group dropdown-search">
+                                <input type="text" class="form-control" placeholder="筛选 话题"
+                                       aria-describedby="basic-addon1">
+                            </div>
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" class="active"><a href="#"
+                                                                          style="margin: 0 0 0 5px;padding: 0 5px 0 5px">话题</a>
+                                </li>
+                            </ul>
+
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">数组</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">哈希表</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">链表</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">数学</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">双指针</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">字符串</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">二分查找</a></li>
+                            <hr class="list-line">
+                            <li><a href="#" class="drop-a" style="padding-top: 8px;padding-bottom: 10px;">分治算法</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="table-list">
+                <table class="table table-hover table-striped mytable">
+                    <thead>
+                    <tr class="title">
+                        <td class="td-flag"></td>
+                        <td class="td-sharp">#</td>
+                        <td class="td-title">题名</td>
+                        <td class="td-solution">解答</td>
+                        <td class="td-past">通过率</td>
+                        <td class="td-diff">难度</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><i class="text-success fa fa-check"></i></td>
+                        <td>1</td>
+                        <td><a href="#">两数之和 <i></i> </a></td>
+                        <td><a href="#" class="td-a"></a> <i class=" fa fa-file-text table-s"></i></td>
+                        <td>45.3%</td>
+                        <td><span class="badge easy">简单</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>2</td>
+                        <td><a href="">两数相加</a></td>
+                        <td><a href="#" class="td-a"></a> <i class=" fa fa-file-text table-s"></i></td>
+                        <td>28.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>4</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>5</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>6</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>7</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>8</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>9</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>10</td>
+                        <td><a href="">无重复字符串的最长子串</a></td>
+                        <td><a href="" class="td-a"><i class="fa fa-file-text table-s"></i></a></td>
+                        <td>23.8%</td>
+                        <td><i class="badge middle">中等</i></td>
+                    </tr>
+                    </tbody>
+
+                    <tbody class="tbody-footer">
+                    <tr>
+                        <td colspan="2">
+                            <div class="dropdown my-page-num">
+                                <button class="btn btn-default dropdown-toggle page-num" type="button"
+                                        id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    20
+                                    <i class="fa fa-sort"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">50</a></li>
+                                    <li><a href="#">100</a></li>
+                                    <li><a href="#">全部</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <span>每页数量</span></td>
+
+
+                        <td colspan="3">
+                            <ul>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page active">1</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">2</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">3</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">4</button>
+                                </li>
+                                <li class="li-page">
+                                    <button class="btn btn-default btn-page">5</button>
+                                </li>
+                                <li class="li-page li-next">
+                                    <button class="btn btn-default btn-page btn-next"></button>
+                                </li>
+                            </ul>
+                        </td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--右侧栏-->
+        <div class="row-right">
+            <!--微信公众号-->
+            <div class="wechat">
+                <img style="margin-top: 15px" src="resource/img/wexin-qr.png" alt="" width="70px">
+                <p>
+                    <i class="fa fa-wechat"></i>
+                    扫码关注官方微信公众号
+                </p>
+            </div>
+            <!--微信公众号结束-->
+
+
+            <!--我的进度-->
+            <div>
+                <div class="type-all-text">
+                    <i class="fa fa-bar-chart"> </i>
+                    我的进度
+                </div>
+                <div class="panel-chart">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="height: 30px ;font-size: 14px;font-weight: 400">
+                            <h3 class="panel-title title-head">当前进度: </h3>
+                            <div class="dropdown title-head">
+                                <button class="btn btn-default dropdown-toggle  title-head-drop " type="button"
+
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    未命名进度
+                                    <i class="fa fa-sort"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">50</a></li>
+                                    <li><a href="#">100</a></li>
+                                    <li><a href="#">全部</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                           <div class="my-chart">
+
+                           </div>
+                            <div>
+
+                            </div>
+                        </div>
+                        <div class="panel-footer">Panel footer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </div>
 
